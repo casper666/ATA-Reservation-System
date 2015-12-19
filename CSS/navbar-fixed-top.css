@@ -1,0 +1,7 @@
+body {
+  padding-top: 70px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
