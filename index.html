@@ -1,0 +1,57 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ATA.jpg">
+
+    <title>ATA Reservation System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./CSS/login.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" action="function.php" method="post">
+      	<div class="row">
+    		<!-- <div class="col-lg-3"></div> -->
+          <div class="col-lg-6 col-lg-offset-3">
+    			     <img src="ATA.jpg" class="img-thumbnail" alt="ATA" width="237" height="228" align="middle">
+    		  </div>
+    		<!-- <div class="col-lg-3"></div> -->
+        </div>
+  		  <h2 class="form-signin-heading">Almost There Airlines</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name = "userName" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name = "userPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="row">
+    		  <div class="col-lg-6">
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Log in</button>
+    		  </div>
+    		  <div class="col-lg-6">
+    			  <button class="btn btn-lg btn-block disabled" type="submit">Sign up</button>
+    	    </div>
+  		  </div>
+      </form>
+      <h5 class="center">Binjie Li @ iamlbj_db, CS61 - Spring 2015</h5>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
